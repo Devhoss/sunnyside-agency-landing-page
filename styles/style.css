@@ -433,7 +433,7 @@ body {
     display: none;
   }
   .middle-content h1 {
-    max-width: 475px;
+    max-width: 100%;
     font-size: 45px;
   }
   .middle-content img {
