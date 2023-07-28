@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Top Content -->
+      <div class="top-content">
+        <div class="nav-content">
+          <div class="left-side">
+            <div class="logo">
+              <img src="images/logo.svg" alt="logo" />
+            </div>
+          </div>
+
+          <div class="right-side">
+            <!-- big screen navbar -->
+            <div class="nav-items">
+              <div class="about">
+                <a href="#about">About</a>
+              </div>
+              <div class="services">
+                <a href="#services">Services</a>
+              </div>
+              <div class="projects">
+                <a href="#projects">Projects</a>
+              </div>
+              <div class="contact">
+                <a href="#contact">Contact</a>
+              </div>
+            </div>
+
+            <!-- hamburger menu for smaller screens -->
+            <div class="menu-icon">
+              <img src="images/icon-hamburger.svg" alt="hamburger-icon" />
+              <ul class="links">
+                <span class="links-triangle"></span>
+                <li>
+                  <a href="#about">about</a>
+                </li>
+                <li>
+                  <a href="#services">services</a>
+                </li>
+                <li>
+                  <a href="#projects">projects</a>
+                </li>
+                <li>
+                  <a href="#contact" class="contact">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="middle-content">
+          <h1>We are creatives</h1>
+
+          <img src="images/icon-arrow-down.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- Transform Content -->
+      <div class="transform" id="about">
+        <div class="left">
+          <h1>Transform your brand</h1>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="#">LEARN MORE</a>
+        </div>
+
+        <div class="right"></div>
+      </div>
+
+      <!-- Stand Out Content -->
+      <div class="stand-out">
+        <div class="right"></div>
+
+        <div class="left">
+          <h1>Stand out to the right audience</h1>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="#">LEARN MORE</a>
+        </div>
+      </div>
+
+      <!-- Parallel images Content -->
+      <div class="two-images" id="services">
+        <!-- Graphoc Design Section -->
+        <div class="image-left">
+          <h2>Graphic Design</h2>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+
+        <!-- Photography Section -->
+        <div class="image-right">
+          <h2>Photography</h2>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+
+    <!-- Client Testimonials Start -->
+    <div class="testimonial">
+      <h1>CLIENT TESTIMONIALS</h1>
+
+      <div class="tetimonial-section">
+        <div class="first-testimonial">
+          <div class="image">
+            <img src="/images/image-emily.jpg" alt="emily picture" />
+          </div>
+
+          <div class="feedback">
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+          </div>
+
+          <div class="name">
+            <p>Emily R.</p>
+          </div>
+
+          <div class="designation">
+            <p>Marketing Director</p>
+          </div>
+        </div>
+
+        <div class="second-testimonial">
+          <div class="image">
+            <img src="/images/image-thomas.jpg" alt="thomas picture" />
+          </div>
+
+          <div class="feedback">
+            <p>
+              Sunnyside's enthusiasm coupled with their keen interst in our
+              brand's success made it a satisfying and enjoyable experience.
+            </p>
+          </div>
+
+          <div class="name">
+            <p>Thomas S.</p>
+          </div>
+
+          <div class="designation">
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+
+        <div class="third-testimonial">
+          <div class="image">
+            <img src="/images/image-jennie.jpg" alt="jennie picture" />
+          </div>
+
+          <div class="feedback">
+            <p>
+              incredible end result! Our sales increased over 500% when we
+              worked with Sunnyside. Highly recommanded.
+            </p>
+          </div>
+
+          <div class="name">
+            <p>Jennie F.</p>
+          </div>
+
+          <div class="designation">
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Client Testimonials End -->
+
+    <!-- Projcts grid Start -->
+    <section class="projects-grid" id="projects">
+      <img
+        src="images/mobile/image-gallery-milkbottles.jpg"
+        alt=""
+        class="project-picture"
+      />
+      <img
+        src="images/mobile/image-gallery-orange.jpg"
+        alt=""
+        class="project-picture"
+      />
+      <img
+        src="images/mobile/image-gallery-cone.jpg"
+        alt=""
+        class="project-picture"
+      />
+      <img
+        src="images/mobile/image-gallery-sugar-cubes.jpg"
+        alt=""
+        class="project-picture"
+      />
+    </section>
+    <!-- Projcts grid End -->
+
+    <footer class="footer">
+      <div class="footer-title">sunnyside</div>
+
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+
+      <div class="social-links" id="contact">
+        <img src="/images/icon-facebook.svg" alt="" />
+        <img src="images/icon-instagram.svg" alt="" />
+        <img src="images/icon-twitter.svg" alt="" />
+        <img src="images/icon-pinterest.svg" alt="" />
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/Devhoss" target="_blank">Hoss</a>.
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
